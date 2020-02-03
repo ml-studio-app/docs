@@ -1,9 +1,5 @@
 # ML Studio
 
-### Ad
-
-### Ad
-
 ### Add ML Studio helm repo
 
 ```text
