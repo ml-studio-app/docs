@@ -35,7 +35,7 @@ All that is open because we do not want to lock you in, we believe that after yo
 * **1-click app installs**: apps like AirFlow, Meltano, Seldon, ...
 * **Drift alerts**: data drift detection alerts.
 * **Pipelines:** simple pipelines tools
-* HTTPS deployments.
+* HTTPS deployments out of the box.
 * Better user calibration.
 * Experiments tracking.
 * Multiplce workspaces.
