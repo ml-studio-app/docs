@@ -9,21 +9,15 @@ helm repo update
 
 ### Install ML Studio
 
-To install ML Studio **locally** you need to set this flag `installLocally`.
-
-{% tabs %}
-{% tab title="Cloud" %}
 ```bash
 helm install mlstudio/mlstudio
 ```
-{% endtab %}
 
-{% tab title="Local" %}
-```
+
+
+To install ML Studio **locally** you need to set this flag `installLocally`.
+
+```bash
 helm install mlstudio/mlstudio --set installLocally=true
 ```
-{% endtab %}
-{% endtabs %}
-
-
 
