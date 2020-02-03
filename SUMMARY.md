@@ -15,7 +15,6 @@
 ## Deploying a model
 
 * [Create a deployment](deploying-a-model/untitled.md)
-* [How it works](deploying-a-model/how-it-works.md)
 * [Troubleshooting](deploying-a-model/troubleshooting.md)
 * [Roadmap](roadmap.md)
 * [Demo Workspace](http://examples.mlstudioapp.com)
