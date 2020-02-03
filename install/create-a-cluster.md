@@ -26,15 +26,13 @@ gcloud container clusters create $cluster_name \
 gcloud container clusters get-credentials $cluster_name --zone $cluster_zone
 ```
 
-For cost savings you can also append `--preemptible` to the previous command. They offer the same machine types and options as regular compute instances and last for up to 24 hours.
-
-You can also create a GPU accelerated cluster by appending `--accelerator type=nvidia-tesla-t4,count=1` to the previous command. And then creating a `DaemonSet` to instal Nvidia drivers.
+You can instead create a GPU accelerated cluster by appending `--accelerator type=nvidia-tesla-t4,count=1` to the previous command. And then creating a `DaemonSet` to instal Nvidia drivers.
 
 ```bash
 kubectl apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/container-engine-accelerators/master/nvidia-driver-installer/cos/daemonset-preloaded.yaml
 ```
 
-So the final commands to create a preemptible GPU accelerated cluster would look like:
+So the final commands to create a GPU accelerated cluster would look like:
 
 ```bash
 export cluster_name=mlstudio-cluster
@@ -46,11 +44,31 @@ gcloud container clusters create $cluster_name \
      --num-nodes 1 \
      --enable-autoscaling --min-nodes 0 --max-nodes 6 \
      --zone $cluster_zone
-     --preemptible
 
 # Install NVIDIA GPU device drivers
 kubectl apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/container-engine-accelerators/master/nvidia-driver-installer/cos/daemonset-preloaded.yaml
 
+# Chnage kubectl current context
+gcloud container clusters get-credentials $cluster_name --zone $cluster_zone
+```
+
+{% hint style="info" %}
+For cost savings you can use `--preemptible` nodes. 
+{% endhint %}
+
+They offer the same machine types and options as regular compute instances and last for up to 24 hours.
+
+```bash
+export cluster_name=mlstudio-cluster
+export cluster_zone=us-central1-a
+
+gcloud container clusters create $cluster_name \
+    --machine-type=n1-standard-4 \
+    --preemptible \
+    --num-nodes 1 \
+    --enable-autoscaling --min-nodes 0 --max-nodes 6 \
+    --zone $cluster_zone
+    
 # Chnage kubectl current context
 gcloud container clusters get-credentials $cluster_name --zone $cluster_zone
 ```
