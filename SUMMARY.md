@@ -1,4 +1,17 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Prerequisites](README.md)
+
+## Install
+
+* [Create a cluster](install/create-a-cluster.md)
+* [HELM](install/helm.md)
+* [Istio](install/istio.md)
+* [ML Studio](install/ml-studio.md)
+* [Usage](usage.md)
+* [Cleanup](cleanup.md)
+* [Demo Workspace](http://examples.mlstudioapp.com)
+* [Feature Requests](http://bit.ly/ml-studio-feature-suggestions)
+* [Survey](http://bit.ly/ml-survey-2020)
+* [Email us](mailto:feedback@mlstudioapp.com)
 
