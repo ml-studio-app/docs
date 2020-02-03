@@ -21,6 +21,9 @@ gcloud container clusters create $cluster_name \
     --num-nodes 1 \
     --enable-autoscaling --min-nodes 0 --max-nodes 6 \
     --zone $cluster_zone
+    
+# Chnage kubectl current context
+gcloud container clusters get-credentials $cluster_name --zone $cluster_zone
 ```
 
 For cost savings you can also append `--preemptible` to the previous command. They offer the same machine types and options as regular compute instances and last for up to 24 hours.
@@ -47,6 +50,9 @@ gcloud container clusters create $cluster_name \
 
 # Install NVIDIA GPU device drivers
 kubectl apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/container-engine-accelerators/master/nvidia-driver-installer/cos/daemonset-preloaded.yaml
+
+# Chnage kubectl current context
+gcloud container clusters get-credentials $cluster_name --zone $cluster_zone
 ```
 
 ## Local
