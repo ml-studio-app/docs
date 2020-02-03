@@ -3,6 +3,8 @@
 1. A **Kubernetes cluster**, local or remote.
 2. **HELM** \(ML Studio has been tested with HELM 2.x\)
 3. **Istio**
+4. **Kubectl**
+5. **gcloud** \(optional\) if you want to use GKE
 
 ## ​To try ML Studio locally
 
