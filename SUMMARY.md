@@ -14,7 +14,9 @@
 
 ## Deploying a model
 
-* [Untitled](deploying-a-model/untitled.md)
+* [Create a deployment](deploying-a-model/untitled.md)
+* [How it works](deploying-a-model/how-it-works.md)
+* [Roadmap](roadmap.md)
 * [Demo Workspace](http://examples.mlstudioapp.com)
 * [Feature Requests](http://bit.ly/ml-studio-feature-suggestions)
 * [Survey](http://bit.ly/ml-survey-2020)

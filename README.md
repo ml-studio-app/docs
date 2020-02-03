@@ -29,15 +29,5 @@ If you are already using Git then you are going to fit right in because every ch
 
 All that is open because we do not want to lock you in, we believe that after you try ML Studio you will be hooked. And if you ever feel want to leave you know that all your work and deployments configuration are yours and that you will be taking them with you.
 
-## Roadmap
 
-* **Testing**: add A/B, canaray and shadow testing support.
-* Better user calibration and user managements tools.
-* **1-click app installs**: apps like AirFlow, Meltano, Seldon, ...
-* **Drift alerts**: data drift detection alerts.
-* **Pipelines:** simple pipelines tools
-* HTTPS deployments out of the box.
-* Experiments tracking.
-* Multiplce workspaces.
-* [Request a feature](http://bit.ly/ml-studio-feature-suggestions).
 
