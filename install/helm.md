@@ -62,7 +62,9 @@ helm version --short
 ```
 
 {% hint style="info" %}
-Wait for tiller to get ready. You will know that it is ready when the previous command returns both the client and server versions.
+Wait for tiller to get ready.
+
+You will know that it is ready when the previous command returns both the client and server versions.
 {% endhint %}
 
 

@@ -2,7 +2,6 @@
 
 * **Testing**: add A/B, canaray and shadow testing support.
 * Complex deployments.
-* Deploy to specifc node pools \(preemptible\)
 * Better user calibration and user managements tools.
 * **1-click app installs**: apps like AirFlow, Meltano, Seldon, ...
 * **Drift alerts**: data drift detection alerts.

@@ -34,7 +34,7 @@ kubectl label namespace default istio-injection=enabled
 kubectl get namespace -L istio-injection
 ```
 
-### Cleanup
+### Remove temporary Istio files
 
 ```bash
 # Back
