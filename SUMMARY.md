@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Prerequisites](README.md)
+* [ML Studio](README.md)
+* [Prerequisites](prerequisites.md)
 
 ## Install
 
@@ -9,6 +10,10 @@
 * [Istio](install/istio.md)
 * [ML Studio](install/ml-studio.md)
 * [Usage](usage.md)
+
+## Deploying a model
+
+* [Untitled](deploying-a-model/untitled.md)
 * [Cleanup](cleanup.md)
 * [Demo Workspace](http://examples.mlstudioapp.com)
 * [Feature Requests](http://bit.ly/ml-studio-feature-suggestions)
