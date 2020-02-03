@@ -6,7 +6,7 @@ Make sure that all your changes are stored in remote Git repo and that you moved
 
 ## Delete ML Studio release
 
-```text
+```bash
 helm del --purge mlstudio
 ```
 
@@ -14,7 +14,7 @@ helm del --purge mlstudio
 
 #### GKE
 
-```text
+```bash
 gcloud container clusters delete $cluster_name --zone $cluster_zone
 ```
 
@@ -22,7 +22,7 @@ gcloud container clusters delete $cluster_name --zone $cluster_zone
 
 #### Minikube
 
-```text
+```bash
 minikube delete
 ```
 

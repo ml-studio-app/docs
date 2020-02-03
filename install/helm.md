@@ -12,7 +12,7 @@ You will need `kubectl` to be able to finish this step, follow the [instructions
 Change `HELM_OS` to match your running OS before running the following commands
 {% endhint %}
 
-```text
+```bash
 export HELM_VERSION=v2.16.0
 export HELM_OS=darwin # windows # linux
 wget -q https://get.helm.sh/helm-${HELM_VERSION}-${HELM_OS}-amd64.tar.gz -O - | tar -xzO ${HELM_OS}-amd64/helm > /usr/local/bin/helm && \
@@ -21,7 +21,7 @@ chmod +x /usr/local/bin/helm
 
 ### Setup Tiller Service account
 
-```text
+```bash
 cat <<EOF | kubectl apply -f -
 apiVersion: v1
 kind: ServiceAccount
@@ -49,7 +49,7 @@ helm repo update
 
 ### Ensure that tiller is secure from access inside the cluster
 
-```text
+```bash
 kubectl patch deployment tiller-deploy --namespace=kube-system --type=json --patch='[{"op": "add", "path": "/spec/template/spec/containers/0/command", "value": ["/tiller", "--listen=localhost:44134"]}]'
 ```
 
@@ -57,7 +57,7 @@ kubectl patch deployment tiller-deploy --namespace=kube-system --type=json --pat
 
 We can do so by checking the client and server versions.
 
-```text
+```bash
 helm version --short
 ```
 

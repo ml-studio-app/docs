@@ -4,13 +4,13 @@ Once you have ML Studio installed, find out its the IP address to access it, log
 
 ### Find the IP to access ML Studio
 
-```text
+```bash
 kubectl get svc istio-ingressgateway -n istio-system
 ```
 
 ### Log in as an admin user
 
-```text
+```yaml
   USER: admin
   PASSWORD: password
 ```

@@ -12,7 +12,7 @@ Spinning up a cluster in easy, whether you want to try ML Studio locally or use 
 
 You need to have Google Cloud SDK for this step, follow the [instructions to install it here](https://cloud.google.com/sdk/docs/downloads-interactive#mac).
 
-```text
+```bash
 export cluster_name=mlstudio-cluster
 export cluster_zone=us-central1-a
 
@@ -27,13 +27,13 @@ For cost savings you can also append `--preemptible` to the previous command. Th
 
 You can also create a GPU accelerated cluster by appending `--accelerator type=nvidia-tesla-t4,count=1` to the previous command. And then creating a `DaemonSet` to instal Nvidia drivers.
 
-```text
+```bash
 kubectl apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/container-engine-accelerators/master/nvidia-driver-installer/cos/daemonset-preloaded.yaml
 ```
 
 So the final commands to create a preemptible GPU accelerated cluster would look like:
 
-```text
+```bash
 export cluster_name=mlstudio-cluster
 export cluster_zone=us-central1-a
 
@@ -53,7 +53,7 @@ kubectl apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/container
 
 #### Create a [Minikube](https://minikube.sigs.k8s.io) k8s cluster
 
-```text
+```bash
 minikube start --cpus 5 --memory 10096
 ```
 
