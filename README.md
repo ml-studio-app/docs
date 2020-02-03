@@ -9,14 +9,15 @@ description: Free Data Scientists to focus on hard and creative ML tasks
 ## Key features
 
 * **Try locally** before commiting to anything.
-* **Open:** your deployment specs and models are stored in clean format.
+* **Open:** your deployment specs and models are stored in open format.
+* **Reproducibility**: reproducing previous results easily. 
 * **Auto Deployments:** deploy your models in minutes.
 * **Autoscaling:** automatically scales APIs to handle production workloads.
+* **Zero DevOps**: focus on what matters, you w'not have to worry about devops.
 * **CPU / GPU instances:** ML Studio just works on your infrastructure.
 * **Preemptible \(Spot\) instances:** use preemptible VMs for cost savings.
-* **Zero DevOps**: focus on what matters, you w'not have to worry about devops.
 
-## Can I become who I want to be?
+## What is ML Studio?
 
 **ML Studio** is a cloud-native app build on-top of Kubernetes. This means it is cloud-agnostic and can be deployed on its own or to existing clusters. 
 
@@ -28,7 +29,15 @@ If you are already using Git then you are going to fit right in because every ch
 
 All that is open because we do not want to lock you in, we believe that after you try ML Studio you will be hooked. And if you ever feel want to leave you know that all your work and deployments configuration are yours and that you will be taking them with you.
 
+## Roadmap
 
-
-
+* **Testing**: add A/B, canaray and shadow testing support.
+* **1-click app installs**: apps like AirFlow, Meltano, Seldon, ...
+* **Drift alerts**: data drift detection alerts.
+* **Pipelines:** simple pipelines tools
+* HTTPS deployments.
+* Better user calibration.
+* Experiments tracking.
+* Multiplce workspaces.
+* [Request a feature](http://bit.ly/ml-studio-feature-suggestions).
 
