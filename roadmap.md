@@ -1,6 +1,7 @@
 # Roadmap
 
 * **Testing**: add A/B, canaray and shadow testing support.
+* Complex deployments.
 * Better user calibration and user managements tools.
 * **1-click app installs**: apps like AirFlow, Meltano, Seldon, ...
 * **Drift alerts**: data drift detection alerts.
