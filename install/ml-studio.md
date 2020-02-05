@@ -25,5 +25,19 @@ helm install mlstudio/mlstudio --name mlstudio --set installLocally=true
 {% endtab %}
 {% endtabs %}
 
+### Update ML Studio
 
+{% tabs %}
+{% tab title="Cloud" %}
+```bash
+helm upgrade mlstudio mlstudio/mlstudio
+```
+{% endtab %}
+
+{% tab title="Local" %}
+```
+helm upgrade mlstudio mlstudio/mlstudio --set installLocally=true
+```
+{% endtab %}
+{% endtabs %}
 
