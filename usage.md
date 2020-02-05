@@ -15,11 +15,5 @@ kubectl get svc istio-ingressgateway -n istio-system
   PASSWORD: password
 ```
 
-### Work directory
 
-{% hint style="info" %}
-ML Studio root work directory can be access at `/home/jovyan/work` inside jupyter pods and `/home/work` inside other pods.
-
-All files you would like persisted should live under this directory.
-{% endhint %}
 
