@@ -8,7 +8,7 @@ description: ML Studio has not been with HELM 3.x yet
 
 You will need `kubectl` to be able to finish this step, follow the [instructions to install it here](https://kubernetes.io/docs/tasks/tools/install-kubectl).
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Change `HELM_OS` to match your running OS before running the following commands
 {% endhint %}
 
@@ -62,7 +62,9 @@ helm version --short
 ```
 
 {% hint style="info" %}
-Wait for tiller to get ready. You will know that it is ready when the previous command returns both the client and server versions.
+Wait for tiller to get ready.
+
+You will know that it is ready when the previous command returns both the client and server versions.
 {% endhint %}
 
 
