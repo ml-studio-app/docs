@@ -1,5 +1,5 @@
 ---
-description: Free Data Scientists to focus on hard and creative ML tasks
+description: Freeing Data Scientists to focus on hard and creative ML tasks
 ---
 
 # ML Studio
