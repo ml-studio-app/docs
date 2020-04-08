@@ -8,7 +8,7 @@ description: Freeing Data Scientists to focus on hard and creative ML tasks
 
 ## Key features
 
-* **Try locally** before commiting to anything.
+* **Try your changes** before committing to anything.
 * **Open:** your deployment specs and models are stored in open format.
 * **Reproducibility**: reproducing previous results easily. 
 * **Auto Deployments:** deploy your models in minutes.
@@ -19,9 +19,20 @@ description: Freeing Data Scientists to focus on hard and creative ML tasks
 
 ## What is ML Studio?
 
-**ML Studio** is a cloud-native app build on-top of Kubernetes. This means it is cloud-agnostic and can be deployed on its own or to existing clusters. 
+Build, deploy and manage your ML models using one service**.**
 
-**ML Studio** has intuitive UI and is bundled with many open-source tools Data Scientists and Engineers already use daily. No lock-in tools, we simply want to free you to do your best work without having to worry about the mundane tasks.
+**ML Studio** is a cloud-native app build on-top of Kubernetes. It is cloud-agnostic and can be deployed on its own or to existing clusters. 
+
+**ML Studio** is built around a few open-source tools your already use and other tools we build ourselves to make your life easier: 
+
+* **GIT**: track your work and deployments configuration
+* **Docker**: build your deployment images and deploy your work inside your k8s cluster
+* **Voyager**: a simple but handy lightweight data visualization tool
+* **Conda**: manage your Python environments
+* **Jupyter**: our online IDE of choice
+* **Boiler**: a tool we built to help you manage all your deployments
+
+None of the tools we built are designed to lock you in.
 
 ## How it works?
 
