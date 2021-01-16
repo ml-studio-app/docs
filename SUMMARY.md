@@ -9,6 +9,9 @@
 * [HELM](install/helm.md)
 * [Istio](install/istio.md)
 * [ML Studio](install/ml-studio.md)
+
+---
+
 * [Usage](usage.md)
 * [Cleanup](cleanup.md)
 
@@ -16,6 +19,9 @@
 
 * [Create a deployment](deploying-a-model/untitled.md)
 * [Troubleshooting](deploying-a-model/troubleshooting.md)
+
+---
+
 * [Roadmap](roadmap.md)
 * [Demo Workspace](http://examples.mlstudioapp.com)
 * [Feature Requests](http://bit.ly/ml-studio-feature-suggestions)

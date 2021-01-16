@@ -3,9 +3,9 @@
 ### Download Istio
 
 ```bash
-curl -L https://git.io/getLatestIstio | sh -
+git clone --depth 1 -b 1.4.0 https://github.com/istio/istio
 
-cd istio-*/
+cd istio
 ```
 
 ### Install the istio-init chart to bootstrap all the Istio’s CRDs
