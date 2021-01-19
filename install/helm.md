@@ -1,5 +1,5 @@
 ---
-description: ML Studio has not been with HELM 3.x yet
+description: ML Studio has not been tested with HELM 3.x yet
 ---
 
 # HELM
