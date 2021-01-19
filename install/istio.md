@@ -41,7 +41,7 @@ kubectl get namespace -L istio-injection
 cd ../
 
 # Remove istio directory
-rm -R istio-*/
+rm -R istio
 ```
 
 
